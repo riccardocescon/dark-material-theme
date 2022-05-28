@@ -1,0 +1,21 @@
+{
+    "name": "dark-material-theme",
+    "displayName": "Dark-Material",
+    "description": "Dark Material Theme!",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Material Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Material Theme-color-theme.json"
+            }
+        ]
+    }
+}
