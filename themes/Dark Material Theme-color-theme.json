@@ -49,6 +49,9 @@
 		"activityBar.foreground": "#fafafa",
 		"editorInfo.foreground": "#80cbc4",
 		"editorError.foreground": "#f50057",
+		"editor.selectionBackground": "#7e57c267",
+		"editor.inactiveSelectionBackground": "#7e57c255",
+		"editorSuggestWidget.selectedIconForeground": "#ede7f6",
 	},
 	"tokenColors": [
 		{
