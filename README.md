@@ -1,13 +1,38 @@
-# README
-## This is the README for your extension "dark-material-theme"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+<h1 align="center">Welcome to dark-material-theme 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/vscode-%5E1.67.0-blue.svg" />
+  <a href="https://github.com/riccardocescon/dark-material-theme#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/riccardocescon/dark-material-theme/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+</p>
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+> Dark Material Theme for your Visual Studio Code
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Prerequisites
 
-**Enjoy!**
+- vscode ^1.67.0
+
+## Install
+
+```sh
+npm install
+```
+
+## Author
+
+👤 **Riccardo Cescon**
+
+* Website: cescon.dev
+* Github: [@riccardocescon](https://github.com/riccardocescon)
+* LinkedIn: [@riccardocescon](https://linkedin.com/in/riccardocescon)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
