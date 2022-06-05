@@ -58,7 +58,6 @@
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -66,25 +65,23 @@
 			}
 		},
 		{
-			"name": "Comment",
-			"scope": [
-				"comment.block.dart",
-			],
-			"settings": {
-				"fontStyle": "italic bold",
-				"foreground": "#90caf9"
-			}
-		},
-		{
 			"name": "comment.line",
 			"scope": [
-				"comment.line.double-slash",
-				"punctuation.definition.comment",
-				
+				"comment.line.double-slash.cs",
 			],
 			"settings": {
 				"foreground": "#a5d6a7",
 				"fontStyle": "italic bold",
+			}
+		},
+		{
+			"name": "Source Dart",
+			"scope": [
+				"source.dart",
+			],
+			"settings": {
+				"foreground": "#b39ddb",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -94,7 +91,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#d1c4e9"
+				"foreground": "#c5cae9"
 			}
 		},
 		{
@@ -132,7 +129,8 @@
 				"storage.type",
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#8c9eff",
+				"fontStyle": "bold",
 			}
 		},
 		{
@@ -140,19 +138,24 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
 			],
 			"settings": {
 				"foreground": "#9fa8da"
+			}
+		},
+		{
+			"name": "Storage Modifier",
+			"scope" : [
+				"storage.modifier",
+			],
+			"settings": {
+				"foreground": "#b388ff",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -211,7 +214,22 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#fb8c00",
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"name": "Parenthesis",
+			"scope" : [
+				"punctuation.parenthesis.open",
+				"punctuation.parenthesis.close",
+				"punctuation.squarebracket.close",
+				"punctuation.squarebracket.open",
+				"punctuation.curlybrace.open",
+				"punctuation.curlybrace.close",
+			],
+			"settings": {
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -230,6 +248,35 @@
 			}
 		},
 		{
+			"name": "Strings",
+			"scope":[
+				"string",
+				"string.quoted.double.cs",
+			],
+			"settings": {
+				"foreground": "#e1f5fe",
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": [
+				"keyword.operator",
+			],
+			"settings": {
+				"foreground": "#ff4081",
+			}
+		},
+		{
+			"name": "Block Comment",
+			"scope": [
+				"comment.block",
+			],
+			"settings": {
+				"foreground": "#90caf9",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Class, Support",
 			"scope": [
 				"entity.name",
@@ -242,16 +289,26 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"//FFCB6B
+				"foreground": "#c0cfff",
+			}
+		},
+		{
+			"name": "Entity Name",
+			"scope": [
+				"entity.name.type.cs",
+			],
+			"settings": {
+				"foreground": "#d1c4e9",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "Entity Types",
 			"scope": [
-				"support.type"
+				"support.type",
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#B2CCD6",
 			}
 		},
 		{
@@ -277,6 +334,26 @@
 			],
 			"settings": {
 				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "Other Variables",
+			"scope": [
+				"variable.other.object.cs",
+			],
+			"settings": {
+				"foreground": "#b39ddb",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Other Variables Property",
+			"scope": [
+				"variable.other.object.property.cs",
+			],
+			"settings": {
+				"foreground": "#ce93d8",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -307,6 +384,16 @@
 			],
 			"settings": {
 				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function",
+			],
+			"settings": {
+				"foreground": "#ffb74d",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -384,12 +471,23 @@
 			}
 		},
 		{
+			"name": "MMA",
+			"scope": [
+				"punctuation.separator",
+				"punctuation.terminator",
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+			}
+		},
+		{
 			"name": "Escape Characters",
 			"scope": [
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#8c9eff",
+				"fontStyle": "bold",
 			}
 		},
 		{
