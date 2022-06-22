@@ -4,13 +4,10 @@
 // deepPuple 300 	#9575cd
 // deepPuple 400 	#7e57c2
 // deepPuple 500 	#673ab7
-
 // grey 50		#fafafa
 // grey 100		#f5f5f5
-
 // orange 400 	#ffa726
 // deepOrange 500 	#ff5722
-
 {
 	"name": "Dark Material Theme",
 	"colors": {
@@ -60,8 +57,9 @@
 				"comment",
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"fontStyle": "italic bold",
+				//"foreground": "#ff9e80",
+				"foreground": "#a5d6a7",
 			}
 		},
 		{
@@ -70,8 +68,18 @@
 				"comment.line.double-slash.cs",
 			],
 			"settings": {
-				"foreground": "#a5d6a7",
+				"foreground": "#90caf9",
 				"fontStyle": "italic bold",
+			}
+		},
+		{
+			"name": "comment.block.documentation",
+			"scope": [
+				"comment.block.documentation",
+			],
+			"settings": {
+				"foreground": "#ff9e80",
+				"fontStyle": "italic bold"
 			}
 		},
 		{
@@ -150,7 +158,7 @@
 		},
 		{
 			"name": "Storage Modifier",
-			"scope" : [
+			"scope": [
 				"storage.modifier",
 			],
 			"settings": {
@@ -220,7 +228,7 @@
 		},
 		{
 			"name": "Parenthesis",
-			"scope" : [
+			"scope": [
 				"punctuation.parenthesis.open",
 				"punctuation.parenthesis.close",
 				"punctuation.squarebracket.close",
@@ -249,7 +257,7 @@
 		},
 		{
 			"name": "Strings",
-			"scope":[
+			"scope": [
 				"string",
 				"string.quoted.double.cs",
 			],
