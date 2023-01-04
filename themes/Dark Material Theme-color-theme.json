@@ -93,16 +93,6 @@
 			}
 		},
 		{
-			"name": "Variables",
-			"scope": [
-				"variable",
-				"string constant.other.placeholder"
-			],
-			"settings": {
-				"foreground": "#c5cae9"
-			}
-		},
-		{
 			"name": "Colors",
 			"scope": [
 				"constant.other.color"
@@ -162,7 +152,7 @@
 				"storage.modifier",
 			],
 			"settings": {
-				"foreground": "#b388ff",
+				"foreground": "#a876ff",
 				"fontStyle": "bold"
 			}
 		},
@@ -259,10 +249,12 @@
 			"name": "Strings",
 			"scope": [
 				"string",
-				"string.quoted.double.cs",
+				"string.quoted.double",
+				"punctuation.separator.hash",
 			],
 			"settings": {
-				"foreground": "#e1f5fe",
+				"foreground": "#ff8e61",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -297,7 +289,17 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#c0cfff",
+				"foreground": "#ead0ff",
+			}
+		},
+		{
+			"name": "Class Name",
+			"scope": [
+				"entity.name.type.class",
+			],
+			"settings": {
+				"foreground": "#ead0ff",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -306,7 +308,17 @@
 				"entity.name.type.cs",
 			],
 			"settings": {
-				"foreground": "#d1c4e9",
+				"foreground": "#c3a3ff",
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation.definition.typeparameters",
+			],
+			"settings": {
+				"foreground": "#e57373",
 				"fontStyle": "bold"
 			}
 		},
@@ -345,23 +357,12 @@
 			}
 		},
 		{
-			"name": "Other Variables",
-			"scope": [
-				"variable.other.object.cs",
-			],
-			"settings": {
-				"foreground": "#b39ddb",
-				"fontStyle": "bold"
-			}
-		},
-		{
 			"name": "Other Variables Property",
 			"scope": [
 				"variable.other.object.property.cs",
 			],
 			"settings": {
-				"foreground": "#ce93d8",
-				"fontStyle": "bold"
+				"foreground": "#dc87ec",
 			}
 		},
 		{
